@@ -1,0 +1,44 @@
+h1{
+    background-color: gold;
+}
+
+h1{
+    background-color: aqua;
+    color: rgb(255, 225, 0);
+}
+
+h1{
+    color: blueviolet;
+}
+
+section h2{
+    color: blueviolet;
+}
+
+.textoNaranja{
+    color: orangered;
+}
+
+#documento{
+    color: blue;
+
+    border: 3px dotted blue;
+}
+
+.backgroundRojo{
+    background-color: rgb(255, 0, 0);
+}
+
+.backgroundAmarillo{
+    background-color: yellow;
+}
+
+body{
+    margin: 2px;
+    padding: 1px;
+    border: 1px dashed green;
+}
+
+.backgroundCeleste{
+    background-color: aquamarine;
+}

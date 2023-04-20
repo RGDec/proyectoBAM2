@@ -1,0 +1,35 @@
+/*.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    flex-basis: 100%;
+}*/
+
+.cajaP{
+    border: 1px solid black;
+    background-color: rgb(125, 255, 173);
+    line-height: 100px;
+    padding: 2px;
+}
+
+.cajaM{
+    border: 1px solid black;
+    background-color: rgb(125, 194, 255);
+    line-height: 100px;
+    padding: 2px;
+}
+
+.cajaG{
+    border: 1px solid black;
+    background-color: rgb(125, 194, 255);
+    line-height: 100px;
+    padding: 2px;
+    grid-column: 1/4;
+}
+
+.grid-layout{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}

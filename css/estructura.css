@@ -39,6 +39,40 @@ body{
     border: 1px dashed green;
 }
 
-.backgroundCeleste{
-    background-color: aquamarine;
+.grid-layout{
+    width: 75%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+}
+
+.cajaUno{
+    border: 1px solid red;
+    line-height: 120px;
+    text-align: center;
+}
+
+.cajaDos{
+    border: 1px solid rgb(0, 255, 68);
+    line-height: 120px;
+    text-align: center;
+    
+}
+
+.cajaTres{
+    border: 1px solid rgb(0, 255, 68);
+    line-height: 120px;
+    text-align: center;
+    
+    grid-column: 1/2;   /*Desde columna 1 a la columna 2*/
+    grid-area: 1/2/2/3; /*Desde col 1 a col 2 y desde fila 2 a fila 3*/
+}
+
+
+
+.flex-container{
+    display: flex;
+    flex-basis: 100%;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }

@@ -32,4 +32,12 @@
 .grid-layout{
     display: grid;
     grid-template-columns: auto auto auto auto;
+    
+}
+
+@media (min-width: 1024px) and (max-width: 1200px){
+    section{
+        width: 1024px;
+        height: 768px;
+    }
 }
